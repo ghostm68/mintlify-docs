@@ -21,28 +21,28 @@
           {
             "group": "Core Realms",
             "pages": [
-              "index",
-              "1991",
-              "runway",
-              "minraud"
+              "essentials/index",
+              "essentials/1991",
+              "essentials/runway",
+              "essentials/minraud"
             ]
           },
           {
             "group": "Creative Nexus",
             "pages": [
-              "deluxe",
-              "nous",
-              "trix",
-              "atari"
+              "essentials/deluxe",
+              "essentials/nous",
+              "essentials/trix",
+              "essentials/atari"
             ]
           },
           {
             "group": "WordStar Projects",
             "pages": [
-              "dreamweaver",
-              "displaywriter",
-              "dejavuglitches",
-              "wip"
+              "essentials/dreamweaver",
+              "essentials/displaywriter",
+              "essentials/dejavuglitches",
+              "essentials/wip"
             ]
           }
         ]
@@ -53,25 +53,25 @@
           {
             "group": "Downloads",
             "pages": [
-              "apk"
+              "essentials/apk"
             ]
           },
           {
             "group": "Extras",
             "pages": [
-              "twoskinnygirls",
-              "2741",
-              "svg",
-              "apartment7a"
+              "essentials/twoskinnygirls",
+              "essentials/2741",
+              "essentials/svg",
+              "essentials/apartment7a"
             ]
           },
           {
             "group": "Revolutions",
             "pages": [
-              "synthword",
-              "poesia",
-              "tvc15",
-              "ie"
+              "essentials/synthword",
+              "essentials/poesia",
+              "essentials/tvc15",
+              "essentials/ie"
             ]
           }
         ]
