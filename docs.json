@@ -16,59 +16,30 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Realms",
-        "groups": [
-          {
-            "group": "Core Realms",
-            "pages": [
-              "https://wordstar.nexus"
-            ]
-          },
-          {
-            "group": "Creative Nexus",
-            "pages": [
-              "essentials/deluxe",
-              "essentials/nous",
-              "essentials/trix",
-              "essentials/atari"
-            ]
-          },
-          {
-            "group": "WordStar Projects",
-            "pages": [
-              "essentials/dreamweaver",
-              "essentials/displaywriter",
-              "essentials/dejavuglitches",
-              "essentials/wip"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Digital Archive",
         "groups": [
           {
             "group": "Downloads",
             "pages": [
-              "essentials/apk"
+              "apk"
             ]
           },
           {
             "group": "Extras",
             "pages": [
-              "essentials/twoskinnygirls",
-              "essentials/2741",
-              "essentials/svg",
-              "essentials/apartment7a"
+              "twoskinnygirls",
+              "2741",
+              "svg",
+              "apartment7a"
             ]
           },
           {
             "group": "Revolutions",
             "pages": [
-              "essentials/synthword",
-              "essentials/poesia",
-              "essentials/tvc15",
-              "essentials/ie"
+              "synthword",
+              "poesia",
+              "tvc15",
+              "ie"
             ]
           }
         ]
@@ -84,7 +55,26 @@
           }
         ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "inkrealm.info",
+          "href": "https://inkrealm.info",
+          "icon": "fire"
+        },
+        {
+          "anchor": "Reddit",
+          "href": "https://www.reddit.com/user/Adorable-Ad-4993/",
+          "icon": "alien"
+        },
+        {
+          "anchor": "Telegram",
+          "href": "https://t.me/inkrealm",
+          "icon": "paper-plane"
+        }
+      ]
+    }
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -104,6 +94,10 @@
       {
         "label": "Sitemap",
         "href": "https://inkrealm.info/sitemap"
+      },
+      {
+        "label": "WordStar",
+        "href": "https://wordstar.nexus"
       }
     ],
     "primary": {
