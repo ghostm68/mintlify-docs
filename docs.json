@@ -21,25 +21,25 @@
           {
             "group": "Downloads",
             "pages": [
-              "apk"
+              "essentials/apk"
             ]
           },
           {
             "group": "Extras",
             "pages": [
-              "twoskinnygirls",
-              "2741",
-              "svg",
-              "apartment7a"
+              "essentials/twoskinnygirls",
+              "essentials/2741",
+              "essentials/svg",
+              "essentials/apartment7a"
             ]
           },
           {
             "group": "Revolutions",
             "pages": [
-              "synthword",
-              "poesia",
-              "tvc15",
-              "ie"
+              "essentials/synthword",
+              "essentials/poesia",
+              "essentials/tvc15",
+              "essentials/ie"
             ]
           }
         ]
