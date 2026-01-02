@@ -12,7 +12,7 @@
     "light": "#ff3333",
     "dark": "#cc0000"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -21,28 +21,28 @@
           {
             "group": "Core Realms",
             "pages": [
-              "essentials/index",
-              "essentials/1991",
-              "essentials/runway",
-              "essentials/minraud"
+              "index",
+              "1991",
+              "runway",
+              "minraud"
             ]
           },
           {
             "group": "Creative Nexus",
             "pages": [
-              "essentials/deluxe",
-              "essentials/nous",
-              "essentials/trix",
-              "essentials/atari"
+              "deluxe",
+              "nous",
+              "trix",
+              "atari"
             ]
           },
           {
             "group": "WordStar Projects",
             "pages": [
-              "essentials/dreamweaver",
-              "essentials/displaywriter",
-              "essentials/dejavuglitches",
-              "essentials/wip"
+              "dreamweaver",
+              "displaywriter",
+              "dejavuglitches",
+              "wip"
             ]
           }
         ]
@@ -53,25 +53,25 @@
           {
             "group": "Downloads",
             "pages": [
-              "essentials/apk"
+              "apk"
             ]
           },
           {
             "group": "Extras",
             "pages": [
-              "essentials/twoskinnygirls",
-              "essentials/2741",
-              "essentials/svg",
-              "essentials/apartment7a"
+              "twoskinnygirls",
+              "2741",
+              "svg",
+              "apartment7a"
             ]
           },
           {
             "group": "Revolutions",
             "pages": [
-              "essentials/synthword",
-              "essentials/poesia",
-              "essentials/tvc15",
-              "essentials/ie"
+              "synthword",
+              "poesia",
+              "tvc15",
+              "ie"
             ]
           }
         ]
@@ -82,7 +82,7 @@
           {
             "group": "inkrealm Creative API",
             "pages": [
-              "essentials/api-reference/introduction"
+              "api-reference/introduction"
             ]
           }
         ]
