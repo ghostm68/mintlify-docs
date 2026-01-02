@@ -1,33 +1,88 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: 'inkrealm Creative API'
+description: 'Programmatic access to creative works and digital artifacts'
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+## Overview
 
-## Welcome
+The inkrealm Creative API provides programmatic access to creative projects, downloadable content, and system status. All endpoints return JSON and require no authentication.
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+### Base URL
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+https://inkrealm.info/api/v1
 
-## Authentication
+## Quick Start
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+```javascript
+// Fetch all creative projects
+fetch('https://inkrealm.info/api/v1/projects.json')
+  .then(res => res.json())
+  .then(projects => {
+    console.log('Available projects:', projects);
+  });
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+Available Endpoints
+Creative Projects
+GET /projects.json - List all creative works
+
+GET /projects/{id} - Get specific project (coming soon)
+
+Digital Downloads
+GET /downloads.json - List all downloadable files
+
+GET /downloads/{id} - Get specific download info (coming soon)
+
+System Status
+GET /status.json - Current system status and uptime
+
+Examples
+<CodeGroup> ```bash cURL curl https://inkrealm.info/api/v1/projects.json ```
+
+import requests
+projects = requests.get('https://inkrealm.info/api/v1/projects.json').json()
+
+const response = await fetch('https://inkrealm.info/api/v1/projects.json');
+const projects = await response.json();
+
+Data Structure
+Project Object
+
+{
+  "id": "1991",
+  "title": "1991 Project",
+  "type": "visual_narrative",
+  "description": "Foundational visual storytelling work",
+  "url": "https://inkrealm.info/1991",
+  "year": 2024,
+  "status": "active"
+}
+
+Download Object
+
+{
+  "id": "inkrealm-apk",
+  "name": "inkrealm.apk",
+  "type": "android",
+  "url": "https://github.com/.../tvc15.apk",
+  "size": "24MB",
+  "version": "1.6"
+}
+
+Use Cases
+Portfolio Integration - Display inkrealm projects on other sites
+
+Download Managers - Programmatic access to files
+
+Status Monitoring - Check system availability
+
+Creative Feeds - RSS-like feed of new works
+
+Rate Limits
+100 requests/minute per IP
+
+JSON responses only
+
+No API key required
+
+<Note> **Note**: This is a static read-only API. Data is updated when new creative works are published. </Note> ```
+
