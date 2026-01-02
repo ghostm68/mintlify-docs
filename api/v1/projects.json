@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1991",
+    "title": "1991 Project",
+    "type": "visual_narrative",
+    "description": "Foundational visual storytelling work",
+    "url": "https://inkrealm.info/1991",
+    "tags": ["visual", "narrative"],
+    "year": 2024,
+    "status": "active"
+  }
+  // ... more projects
+]
