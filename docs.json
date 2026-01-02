@@ -74,6 +74,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "inkrealm Creative API",
+            "pages": [
+              "essentials/api-reference/introduction"
+            ]
+          }
+        ]
       }
     ],
     "global": {
