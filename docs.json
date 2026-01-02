@@ -1,68 +1,79 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "inkrealm nexus",
+  "metadata": {
+    "description": "inkrealm — music, art, creativity, and projects by the writer and artist",
+    "keywords": "creative, writing, visual arts, music, poetry, film, band, tiktok, ai, nexus"
   },
-  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#ff0000",
+    "light": "#ff3333",
+    "dark": "#cc0000"
+  },
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Realms",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Core Realms",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "1991",
+              "runway",
+              "minraud"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Creative Nexus",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "nexus/deluxe",
+              "nexus/nous",
+              "nexus/trix",
+              "nexus/atari"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "WordStar Projects",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "wordstar/dreamweaver",
+              "wordstar/displaywriter",
+              "wordstar/dejavuglitches",
+              "wordstar/wip"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Digital Archive",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Downloads",
             "pages": [
-              "api-reference/introduction"
+              "downloads/apk",
+              "downloads/birch",
+              "downloads/brimless1",
+              "downloads/brimless2"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Extras",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "extras/twoskinnygirls",
+              "extras/2741",
+              "extras/svg",
+              "extras/apartment7a"
+            ]
+          },
+          {
+            "group": "Revolutions",
+            "pages": [
+              "revolutions/synthword",
+              "revolutions/poesia",
+              "revolutions/tvc15",
+              "revolutions/ie"
             ]
           }
         ]
@@ -71,52 +82,70 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "inkrealm.info",
+          "href": "https://inkrealm.info",
+          "icon": "fire"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Reddit",
+          "href": "https://www.reddit.com/user/Adorable-Ad-4993/",
+          "icon": "alien"
+        },
+        {
+          "anchor": "Telegram",
+          "href": "https://t.me/inkrealm",
+          "icon": "paper-plane"
         }
       ]
     }
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://inkrealm.info"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "tel:+16468019713"
+      },
+      {
+        "label": "Status",
+        "href": "https://wordstar.ilert.io/"
+      },
+      {
+        "label": "Sitemap",
+        "href": "https://inkrealm.info/sitemap"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Enter Nexus",
+      "href": "https://inkrealm.info"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/inkrealm",
+      "github": "https://github.com/ghostm68",
+      "linkedin": "https://linkedin.com/company/inkrealm",
+      "instagram": "https://instagram.com/inkrealm"
     }
-  }
+  },
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/ghostm68/inktwo"
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+  "backgroundImage": "/backgrounds/ink-bg.jpg"
 }
