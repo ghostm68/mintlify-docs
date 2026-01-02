@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "inkrealm nexus",
+  "openapi": "/api/v1/openapi.json",
   "metadata": {
     "description": "inkrealm — music, art, creativity, and projects by the writer and artist",
     "keywords": "creative, writing, visual arts, music, poetry, film, band, tiktok, ai, nexus"
@@ -86,26 +87,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "inkrealm.info",
-          "href": "https://inkrealm.info",
-          "icon": "fire"
-        },
-        {
-          "anchor": "Reddit",
-          "href": "https://www.reddit.com/user/Adorable-Ad-4993/",
-          "icon": "alien"
-        },
-        {
-          "anchor": "Telegram",
-          "href": "https://t.me/inkrealm",
-          "icon": "paper-plane"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
