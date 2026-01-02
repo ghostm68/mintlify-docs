@@ -52,10 +52,7 @@
           {
             "group": "Downloads",
             "pages": [
-              "downloads/apk",
-              "downloads/birch",
-              "downloads/brimless1",
-              "downloads/brimless2"
+              "essentials/apk"
             ]
           },
           {
