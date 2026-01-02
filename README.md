@@ -1,43 +1,31 @@
-# Mintlify Starter Kit
+# inkrealm Digital Nexus
 
-Use the starter kit to get your docs deployed and ready to customize.
+Welcome to the digital documentation hub of inkrealm - a convergence point for music, art, and creative technology.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## About This Nexus
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+This documentation portal serves as the structural framework for exploring the inkrealm creative ecosystem. It contains:
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+- **Creative Realms**: Documentation of artistic projects and experimental works
+- **Digital Archives**: Access points to downloadable artifacts and applications
+- **Technical Documentation**: Behind-the-scenes code, processes, and methodologies
+- **Multimedia Guides**: Navigation through audio, visual, and interactive works
 
-## Development
+## Quick Access
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+**Primary Creative Portal**: [inkrealm.info](https://inkrealm.info)
 
-```
+**Key Starting Points:**
+- [/1991](/1991) - Foundational creative project
+- [/runway](/runway) - Audio-visual experiments
+- [/nexus/deluxe](/nexus/deluxe) - Music catalog
+- [/wordstar/dreamweaver](/wordstar/dreamweaver) - Interactive web projects
+
+## Development Environment
+
+For contributors or those exploring the technical framework:
+
+### Local Preview
+Install the Mintlify CLI to preview documentation changes:
+```bash
 npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
