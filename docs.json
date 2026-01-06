@@ -27,19 +27,43 @@
           {
             "group": "Extras",
             "pages": [
-              "https://inkrealm.info/twoskinnygirls",
-              "https://inkrealm.info/2741",
-              "https://inkrealm.info/svg",
-              "https://inkrealm.info/apartment7A"
+              {
+                "label": "Two Skinny Girls",
+                "url": "https://inkrealm.info/twoskinnygirls"
+              },
+              {
+                "label": "2741",
+                "url": "https://inkrealm.info/2741"
+              },
+              {
+                "label": "SVG",
+                "url": "https://inkrealm.info/svg"
+              },
+              {
+                "label": "Apartment 7A",
+                "url": "https://inkrealm.info/apartment7A"
+              }
             ]
           },
           {
             "group": "Revolutions",
             "pages": [
-              "https://inkrealm.info/synthword",
-              "https://inkrealm.info/poesia",
-              "https://inkrealm.info/tvc15",
-              "https://inkrealm.info/ie"
+              {
+                "label": "Synthword",
+                "url": "https://inkrealm.info/synthword"
+              },
+              {
+                "label": "Poesia",
+                "url": "https://inkrealm.info/poesia"
+              },
+              {
+                "label": "TVC15",
+                "url": "https://inkrealm.info/tvc15"
+              },
+              {
+                "label": "IE",
+                "url": "https://inkrealm.info/ie"
+              }
             ]
           }
         ]
